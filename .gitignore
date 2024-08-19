@@ -1,0 +1,6 @@
+\.venv
+\.ipynb_checkpoints
+*:Zone.Identifier
+*.pyc
+output/*/*.png
+output/*
