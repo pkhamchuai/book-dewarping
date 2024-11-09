@@ -31,3 +31,6 @@ create-directories:
 # To use setup and cleanup, you can run:
 # make setup
 # make clean
+
+# sudo apt-get install python3-tk
+# source .venv/bin/activate
