@@ -4,3 +4,5 @@
 *.pyc
 output/*/*.png
 output/*
+# data/*.JPEG
+# data/SitaPB/*
