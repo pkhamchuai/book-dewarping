@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 attrs==23.1.0
 blinker==1.6.3
 Brotli==1.2.0
@@ -38,7 +39,11 @@ sortedcontainers==2.4.0
 
 # Additional libraries
 argparse==1.4.0
+=======
+Pillow
+>>>>>>> ab45a59 (Refactor dependencies in requirements.txt and update test notebook)
 opencv-python==4.8.1.78
-# matplotlib==3.4.3
-# scikit-image==0.18.3
-
+matplotlib
+numpy<2
+scipy
+pytesseract

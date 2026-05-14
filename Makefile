@@ -6,14 +6,13 @@ install-python-package:
 	@echo "Installing requirements python package"
 	# install python3.10
 	@sudo apt-get update
-	@sudo apt-get install software-properties-common
-	@sudo add-apt-repository ppa:deadsnakes/ppa
+	@sudo apt-get install -y software-properties-common tesseract-ocr libgl1
+	@sudo add-apt-repository -y ppa:deadsnakes/ppa
 	@sudo apt-get update
-	@sudo apt-get install python3.10
-	@$(PYTHON) -m pip install --upgrade pip
-	@$(PYTHON) -m venv .venv
+	@sudo apt-get install -y python3.10 python3.10-venv
+	@python3.10 -m venv .venv
+	@.venv/bin/pip install --upgrade pip
 	@.venv/bin/pip install -r requirements.txt
-	@.venv/bin/pip install matplotlib scikit-image
 	# @.venv/bin/pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 	# @.venv/bin/pip install torchsummary pytorch_model_summary
 
