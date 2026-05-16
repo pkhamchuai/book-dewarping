@@ -2,7 +2,7 @@
 \.ipynb_checkpoints
 *:Zone.Identifier
 *.pyc
-output/*/*.png
-output/*
+# output/*/*.png
+# output/*
 # data/*.JPEG
 # data/SitaPB/*

@@ -13,7 +13,7 @@ install-python-package:
 	@python3.10 -m venv .venv
 	@.venv/bin/pip install --upgrade pip
 	@.venv/bin/pip install -r requirements.txt
-	# @.venv/bin/pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+	@.venv/bin/pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 	# @.venv/bin/pip install torchsummary pytorch_model_summary
 
 clean:
